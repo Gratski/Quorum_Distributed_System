@@ -3,8 +3,8 @@
 #### This distributed system was implemented when i was in my third year of Computer Sciences Degree.
 
 The idea was to create a dynamic distributed system with the inteligence to know the next better server to use when one that currently belongs to the quorum fails.
-To execute it: 
-1. make
+To execute it:\n 
+1. make\n
 2. ./table_server 8080 10 backup1  "in one terminal"
 3. ./table_server 8081 10 backup2  "in another terminal"
 4. ./table_server 8082 10 backup3  "in another terminal"
